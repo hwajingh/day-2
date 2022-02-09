@@ -1,0 +1,156 @@
+body {
+    font-family: system-ui;
+    background: #fffaf1;
+    color: black;
+    text-align: center;
+  }
+  /* General styling to get started */
+  .contact{
+   color: black ;
+   font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+  
+  }
+  
+  .shimmer {
+      position: relative;
+      transition: all 0.2s ease-in;
+    }
+    
+    .shimmer:hover {
+      color: white;
+      box-shadow: 0 0 20px 0;
+      background: #98f5ee;
+    }
+    
+    .shimmer:hover:before {
+      animation: shimmer 0.5s 0s linear;
+    }
+    
+    .shimmer:before {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 90%;
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        opacity: 0;
+        background: white;
+        box-shadow: 0 0 10px 3px white;
+        transform: skewX(-20deg);
+    }
+    
+    @keyframes shimmer {
+      from {
+        opacity: 0;
+        left: 0%;
+      }
+    
+      50% {
+        opacity: 1;
+      }
+      
+      to {
+        opacity: 0;
+        left: 100%;
+      }
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+  
+    
+    img {
+      width: 32%;
+      min-height: 200px;
+      border: 1px solid black;
+    }
+    
+    a {
+      display: inline-block;
+    }
+    
+    header {
+      background-color: #fffaf1;
+      height: 20vh;
+    }
+    
+    section {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    
+    header, 
+    section {
+      text-align: center;
+    }
+    
+    
+    
+    /* Write your CSS BELOW */
+    body {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+    }
+    
+    h1 {
+      color: black;
+      font-size: 120px;
+      
+    }
+    
+    h2 {
+      text-align: left;
+      font-size: 42px;
+    }
+    
+    h1,
+    h2 {
+      margin: 0; 
+    }
+    
+    a {
+      color: black;
+      background-color: #ff8b67;
+      font-family: "Poppins";
+      font-size: 18px;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      padding-left: 26px;
+      padding-right: 26px;
+    }
+    
+    p {
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+  
+  ul{
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
+  
+  }
+    
+    header {
+  
+      height: 100vh;
+     
+      padding-top: 25vh;
+    }
+    
+    .about {
+      background-color: #fffaf1;
+    }
+    
+    .gallery {
+      background-color: #fffaf1;
+    }
