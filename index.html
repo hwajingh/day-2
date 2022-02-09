@@ -25,7 +25,37 @@
 
   </p>
   
- <a href="contact.html" class="contact">contact me</a>
+ <h2>Contact Me</h2>
+
+<button class="collapsible">Github</button>
+<div class="content">
+  <p>https://github.com/hwajingh?tab=repositories</p>
+</div>
+<button class="collapsible">Email</button>
+<div class="content">
+  <p>hwajingh@bu.edu</p>
+</div>
+<button class="collapsible">Phone/button>
+<div class="content">
+  <p>+1(717)419-6896</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
   
 
 </section>
