@@ -1,21 +1,20 @@
 body {
-    font-family: system-ui;
+    font-family: 'Poppins', sans-serif;
     background: #f5f5f5;
     color: black;
     text-align: center;
   }
-  /* General styling to get started */
   .contact{
    color: black ;
-   font-family: "Lucida Console", "Courier New", monospace;
-    font-weight: bold;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
   
   }
   
 
 .collapsible {
-    background-color: #777;
-    color: white;
+    background-color: #f5f5f5;
+    color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -26,7 +25,7 @@ body {
   }
   
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #fffce5;
   }
   
   .content {
@@ -45,6 +44,8 @@ body {
     
     a {
       display: inline-block;
+      font-family: 'Poppins', sans-serif;
+
     }
     
     header {
@@ -66,7 +67,6 @@ body {
     
     
     
-    /* Write your CSS BELOW */
     body {
       font-family: 'Poppins', sans-serif;
       font-size: 18px;
@@ -89,7 +89,7 @@ body {
     }
     h1,
     h2 {
-      margin: 0; /* removes default margin */
+      margin: 0; 
     }
     
     a {
@@ -110,9 +110,15 @@ body {
     font-size: 20px;
   }
     
+  .content{
+    text-align: left;
+
+  }
     p {
       margin-top: 0;
       margin-bottom: 40px;
+      font-family: 'Poppins', sans-serif;
+
     }
   
   ul{
